@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <header>
+        <h1>Crie uma Nova Conta</h1>
+    </header>
+
+    <form action="conta.html">
+        <fieldset>
+        <h2>Conta</h2>
+            <form autocomplete="off">
+                <li>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome"></li>
+                <li>
+                    <label for="isobrenome">Sobrenome:</label>
+                    <input type="text" name="teste" id="isobrenome"></li>
+                <li>
+                    <label for="iE-mail">E-mail:</label>
+                    <input type="text" name="E-mail" id="iE-mail"></li>
+                <li>
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha"></li>
+                <li>
+                    <label for="irepitasenha">Repita a senha:</label>
+                    <input type="password" name="repitasenha" id="irepitasenha"></li>
+        </fieldset>
+    </form>
+    <form action="conta.html">
+        <fieldset>
+            <h2>Endereço</h2>
+            <li>
+                <label for="ilogradouro">Logradouro:</label>
+                <input type="text" name="Logradouro" id="ilogradouro"></li>
+            <li>
+                <label for="icomplemento">Complemento:</label>
+                <input type="text" name="complemento" id="icomplemento"></li>
+            <li>
+                <label for="icidade">Cidade:</label>
+                <input type="text" name="cidade" id="icidade"></li>
+            <li>
+                <label for="iestado">Estado:</label>
+                <select name="estado" id="iestado">
+                    <option value="selecao">Selecione um Estado</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                </select>
+            <li>
+                <label for="icep">CEP:</label>
+                <input type="text" name="cep" id="icep"></li>
+        </fieldset>
+    </form>
+    <form action="conta.html">
+        <fieldset>
+            <h2>Perfil</h2>
+            <li>
+                <label for="ifoto">Foto:</label>
+                <input type="file" name="foto" id="ifoto">
+                <p>Tamanho máximo de 700k, JPG, GIF ou PNG</p>
+            </li>
+            <li>
+                <label for="inomeperfil">Nome:</label>
+                <input type="text" name="nomeperfil" id="inomeperfil">
+            </li>
+            <li>
+                <label for="isite">Site:</label>
+                <input type="text" name="site" id="isite">
+                <p>Tem um site ou um blog? Coloque o endereço aqui</p>
+            </li>
+            <li>
+                <label for="ibiografia">Biografia:</label>
+                <textarea name="biografia" id="ibiografia" cols="70" rows="10"></textarea>
+            </li>
+            <li>
+                <label for="imasculino">Gênero:</label>
+                <label for="imasculino">Masculino</label>
+                <input type="radio" name="genero" id="imasculino" value="masculino">
+                <label for="ifeminino">Feminino</label>
+                <input type="radio" name="genero" id="ifeminino" value="feminino">
+                <label for="ioutro">Outro</label>
+                <input type="radio" name="genero" id="ioutro" value="outro">
+            </li>
+        </fieldset>
+        <form action="conta.html">
+            <fieldset>
+                <h2>E-mails</h2>
+                <li>
+                    <input type="checkbox" name="aceitausuarios" id="iaceitausuarios" value="aceitausuarios">
+                    <label for="iaceitausuarios">Tudo bem em enviar e-mails com mensagens de outros usuários        </label>
+                </li>
+                <li>
+                    <input type="checkbox" name="aceitapromocoes" id="iaceitapromocoes" value="aceitapromocoes">
+                    <label for="iaceitapromocoes">Tudo bem em enviar e-mails ocasionais co promoções osbre outros produtos.</label>
+                </li>
+            </fieldset>
+        </form>
+        <form action="conta.html">
+            <fieldset>
+                <button>Criar conta</button>
+            </fieldset>
+        </form>
+    </form>
+    
+</body>
+</html>
